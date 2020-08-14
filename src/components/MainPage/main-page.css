@@ -1,4 +1,25 @@
+
+body{
+  height: 100vh;
+  background-color: rgb(16, 22, 13);
+}
 h1 {
-  color: red;
+  color: greenyellow;
   text-align: center;
+}
+
+.main-page-body{
+  height: 100vh;
+  background-image: url(https://thumbs.gfycat.com/AlarmedInsistentGrayreefshark-poster.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.main-page-main{
+  float: right;
+  margin-top: 15%;
+  height: 60%;
+  width: 40%;
+  background-image: url(https://media.giphy.com/media/fqW7FRJygYRmxkCYJr/giphy.gif);
+  background-repeat: no-repeat;
 }
