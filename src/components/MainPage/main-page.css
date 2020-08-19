@@ -25,7 +25,16 @@ h1 {
 
 .intro{
   height: 33vh;
-  width: 35%;
+  width: 25%;
   padding-top: 13%;
   float: left;
+}
+
+h2{
+  color: greenyellow;
+  text-align: center;
+}
+
+img{
+  margin-left: 5%;
 }
