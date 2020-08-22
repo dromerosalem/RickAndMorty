@@ -61,7 +61,7 @@ class Location extends React.Component{
       </div>
     })
 
-  return <div>{planets}</div>
+  return <div className="div-for-columns" >{planets}</div>
     
   }
 

@@ -13,17 +13,38 @@
 .planet-container{
   display: flex;
   justify-content: center;
+  background-color: black;
+  padding-top: 5%;
+  border: yellowgreen solid 2px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5%;
+  margin-right: 2%;
+  border-radius: 25%;
+  
 }
+
+.planet-container:hover{
+    outline: none;
+    border-color: yellowgreen;
+    box-shadow: 0 0 40px yellowgreen;
+}
+
 
 .planet-image{
   height: 50%;
   width: auto;
   border-radius: 50%;
-  /* margin-left: 17%; */
+  margin-left: 17%;
 }
 
-/* .flex-container{
+
+.div-for-columns{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-} */
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
